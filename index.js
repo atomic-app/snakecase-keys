@@ -1,6 +1,6 @@
 'use strict'
 
-var map = require('map-obj')
+var map = require('@atomic-app/map-obj')
 var snakeCase = require('to-snake-case')
 
 module.exports = function (obj) {

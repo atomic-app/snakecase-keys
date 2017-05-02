@@ -1,17 +1,19 @@
 {
-  "name": "snakecase-keys",
+  "name": "@atomic-app/snakecase-keys",
   "main": "index.js",
   "version": "1.1.0",
-  "description": "Convert an object's keys to snake case",
+  "description": "Browser-friendly fork of bendrucker/snakecase-keys",
   "license": "MIT",
-  "repository": "bendrucker/snakecase-keys",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/atomic-app/snakecase-keys.git"
+  },
   "author": {
-    "name": "Ben Drucker",
-    "email": "bvdrucker@gmail.com",
-    "url": "bendrucker.me"
+    "name": "Tane Morgan",
+    "url": "http://github.com/tanem"
   },
   "scripts": {
-    "test": "standard && tape test.js"
+    "test": "tape test.js"
   },
   "keywords": [
     "snake",
@@ -28,7 +30,7 @@
     "index.js"
   ],
   "dependencies": {
-    "map-obj": "~2.0.0",
+    "@atomic-app/map-obj": "^2.0.3",
     "to-snake-case": "~0.1.2"
   }
 }

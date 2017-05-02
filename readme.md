@@ -1,6 +1,8 @@
-# snakecase-keys [![Build Status](https://travis-ci.org/bendrucker/snakecase-keys.svg?branch=master)](https://travis-ci.org/bendrucker/snakecase-keys)
+# snakecase-keys [![Build Status](https://travis-ci.org/atomic-app/snakecase-keys.svg)](https://travis-ci.org/atomic-app/snakecase-keys)
 
 > Convert an object's keys to snake case
+
+**Note:** This is a browser-friendly fork of [bendrucker/snakecase-keys](https://travis-ci.org/bendrucker/snakecase-keys).
 
 
 ## Install
